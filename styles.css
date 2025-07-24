@@ -1,0 +1,140 @@
+* {
+    font-family: Poppins, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin-top: 47px;
+    margin-left: 42px;
+    margin-bottom: 208px;
+}
+
+.logo-image {
+    width: 595px;
+    height: 500px;
+    margin-left: 121px;
+    display: inline-block;
+}
+
+.link-header {
+    color: #17233d;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+    margin-right: 32px;
+}
+
+.button-header {
+    background: #6fbf44;
+    border: 1px solid #4c8538;
+    border-radius: 6px;
+    width: 124px;
+    height: 51px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    color: #fff;
+    cursor: pointer;
+}
+
+section {
+    display: inline-block;
+}
+
+h1 {
+    color: #161a49;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: 0.596px;
+    width: 582px;
+    margin-left: 85px;
+    margin-bottom: 47px;
+}
+
+p {
+    color: #4b505a;
+    width: 493px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    margin-left: 85px;
+    margin-bottom: 55px;
+
+}
+
+.link-section {
+    color: #6FBF44;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-left: 85px;
+}
+
+div {
+    display: inline-block;
+}
+
+@media (max-width: 390px) {
+    .link-header {
+        display: none;
+    }    
+
+    .button-header {
+        width: 91px;
+        height: 31px;
+        font-size: 12px;
+        margin: 17px 15px 0 284px;
+        }
+
+    section {
+        display: block;
+    }
+
+    h1 {
+        width: 278px;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        margin: 0 55px;
+        }
+
+    p {
+        width: 304px;
+        font-size: 18px;
+        line-height: 33px;
+        text-align: center;
+        margin: 23px auto;
+    }
+
+    .link-section {
+        font-size: 18px;
+        text-align: center;
+        font-weight: 500;
+        margin: 26px 139px;
+    }
+
+    .logo-image {
+    width: 312px;
+    height: 288px;
+    position: absolute;
+    bottom: 0;
+    margin: 60px 39px 40px 39px;
+    }
+
+    div {
+        margin: 0;
+    }
+
+    header {
+        margin: 0;
+        margin-bottom: 76px;
+    }
+    
+}
