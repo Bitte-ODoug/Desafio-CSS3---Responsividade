@@ -81,7 +81,7 @@ div {
     display: inline-block;
 }
 
-@media (max-width: 390px) {
+@media (max-width: 530px) {
     .link-header {
         display: none;
     }    
@@ -123,7 +123,7 @@ div {
     .logo-image {
     width: 312px;
     height: 288px;
-    position: absolute;
+    position: relative;
     bottom: 0;
     margin: 60px 39px 40px 39px;
     }
